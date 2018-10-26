@@ -58,11 +58,13 @@
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/com.inversoft/prime-jwt -->
-         <dependency>
-             <groupId>com.inversoft</groupId>
-             <artifactId>prime-jwt</artifactId>
-             <version>1.0.0</version>
-         </dependency>
+         <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>5.0.8.RELEASE</version>
+</dependency>
+
   </dependencies>
 
   <build>
